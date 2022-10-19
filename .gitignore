@@ -1,0 +1,4 @@
+secrets.json
+*.log
+cookies.pkl
+.vscode

@@ -1,0 +1,8 @@
+
+numpy #already present in system
+#scipy
+pandas
+selenium
+webdriver_manager
+ipykernel
+notebook
