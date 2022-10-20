@@ -13,7 +13,6 @@
   "license": "MIT",
   "dependencies": {
     "puppeteer": "^19.0.0",
-    "puppeteer-core": "^19.0.0",
     "tslib": "^2.4.0"
   },
   "devDependencies": {
