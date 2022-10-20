@@ -1,2 +1,2 @@
 # oddsBot
-Bot used for scraping different odds sites with selenium
+Bot used for scraping different odds sites with puppeteer

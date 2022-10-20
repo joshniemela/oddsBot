@@ -1,0 +1,23 @@
+{
+  "bin": "index.js",
+  "name": "oddsscraper",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^19.0.0",
+    "puppeteer-core": "^19.0.0",
+    "tslib": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "typescript": "^4.8.4"
+  }
+}
