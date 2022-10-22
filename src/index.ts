@@ -39,7 +39,7 @@ if (fs.existsSync('cookies.json')) {
         }
         await page.goto('https://oddsjam.com/auth/login', { waitUntil: 'domcontentloaded' })
         await page.type('#login-email', process.env.ODDS_EMAIL)
-        let loginSelector = String.raw`#__next > div > main > div > div.mt-8.sm\:mx-auto.sm\:w-full.sm\:max-w-md > div > div > form > button`
+        const loginSelector = String.raw`#__next > div > main > div > div.mt-8.sm\:mx-auto.sm\:w-full.sm\:max-w-md > div > div > form > button`
         await page.waitForSelector(loginSelector)
         await page.click(loginSelector)
         await page.waitForNavigation({ timeout: 0 })
